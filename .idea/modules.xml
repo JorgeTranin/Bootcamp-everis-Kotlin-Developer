@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Bootcamp-everis-Kotlin-Developer.iml" filepath="$PROJECT_DIR$/.idea/Bootcamp-everis-Kotlin-Developer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Desafio-de-codigo-Introducao-a-programacao-em-Kotlin/Desafio-de-codigo.iml" filepath="$PROJECT_DIR$/Desafio-de-codigo-Introducao-a-programacao-em-Kotlin/Desafio-de-codigo.iml" />
     </modules>
   </component>
 </project>
