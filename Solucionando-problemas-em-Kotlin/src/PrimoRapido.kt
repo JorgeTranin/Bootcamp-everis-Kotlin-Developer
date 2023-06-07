@@ -1,28 +1,31 @@
+import java.lang.Math.sqrt
+
 fun main(args: Array<String>) {
-    //continue a solução
-    val n = readln().toInt()
+    val n = readLine()!!.toInt()
 
-    for (i in 1..n) {
-        val x = readLine()!!.toInt() // lê o número a ser verificado
-
-        if (isPrime(x)) {
-            println("Prime")
-        } else {
-            println("Not Prime")
-        }
+    for (i in 0 until n) {
+        val x = readLine()!!.toDouble()
+        val prime = isPrime(x)
+        print(prime)
     }
 }
 
-fun isPrime(number: Int): Boolean {
-    if (number <= 1) {
-        return false
-    }
+fun print(prime: Boolean) {
+    if (prime) {
+        print("Prime\n")
+    } else print("Not Prime\n")
+}
 
-    for (i in 2..Math.sqrt(number.toDouble()).toInt()) {
-        if (number % i == 0) {
-            return false
-        }
-    }
+fun isPrime(num: Double): Boolean {
+    if (num < 2) return false
+    if (num % 2 == 0.0) return num == 2.0
 
+    val root = sqrt(num).toInt()
+    var i = 3
+
+    while (i <= root) {
+        if (num % i == 0.0) return false
+        i += 2
+    }
     return true
 }
