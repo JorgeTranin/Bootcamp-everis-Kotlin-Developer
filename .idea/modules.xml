@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Bootcamp-everis-Kotlin-Developer.iml" filepath="$PROJECT_DIR$/.idea/Bootcamp-everis-Kotlin-Developer.iml" />
       <module fileurl="file://$PROJECT_DIR$/Desafio-de-codigo-Introducao-a-programacao-em-Kotlin/Desafio-de-codigo.iml" filepath="$PROJECT_DIR$/Desafio-de-codigo-Introducao-a-programacao-em-Kotlin/Desafio-de-codigo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PraticandoProgramacaoemKotlin/PraticandoProgramacaoemKotlin.iml" filepath="$PROJECT_DIR$/PraticandoProgramacaoemKotlin/PraticandoProgramacaoemKotlin.iml" />
       <module fileurl="file://$PROJECT_DIR$/Solucionando-problemas-em-Kotlin/Solucionando-problemas-em-Kotlin.iml" filepath="$PROJECT_DIR$/Solucionando-problemas-em-Kotlin/Solucionando-problemas-em-Kotlin.iml" />
     </modules>
   </component>
